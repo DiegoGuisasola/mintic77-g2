@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  max-width: 1400px;
+  min-width: 375px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #222222;
+}
+
+/* -------------------- INICIO CSS HEADER -------------------- */
+.header-section {
+  margin-bottom: 30px;
+}
+
+.header-container {
+  background-color: #0a9292;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.contenedor-titulo-buscador {
+  display: flex;
+  height: 70px;
+  width: 400%;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.site-title {
+  display: flex;
+  width: 450%;
+  justify-content: flex-start;
+  color: #f7f7f7;
+  padding-left: 50px;
+}
+
+.buscador {
+  display: flex;
+  align-self: center;
+  width: 200%;
+  justify-content: space-between;
+  margin-top: 60 rem;
+  margin-left: 60 rem;
+}
+
+.form-control {
+  display: flex;
+  width: 100%;
+  padding: 0.1rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.5rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.site-nav {
+  display: flex;
+  height: 35px;
+  width: 427%;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bold;
+  background: #d6d309;
+  margin: 0;
+  color: rgb(81, 83, 82);
+}
+
+.site-nav > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-nav > a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.logoLibreria {
+  width: 100%;
+}
+
+.logoLibreria > img {
+  width: 100%;
+  height: 260px;
+  max-width: 1400px;
+  object-fit: cover;
+}
+/* -------------------- FIN CSS HEADER -------------------- */
+
+.services-section,
+.seccion-noticias,
+.seccion-equipo {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.seccion-noticias,
+.header-section {
+  background-color: #f7f7f7;
+}
+
+.seccion-noticias {
+  flex-wrap: wrap;
+}
+
+/*--------------------- Modificaciones Jefferson: Sección Noticias -----------------*/
+.news-info__title {
+  align-self: center;
+  text-align: center;
+}
+.news-info__text {
+  text-align: justify;
+}
+.news-imagen {
+  max-width: 30%;
+  max-height: 30%;
+}
+#imagen-biblia {
+  max-width: 26%;
+  max-height: 26%;
+}
+#imagen-talleresRefuerzo {
+  max-width: 25%;
+  max-height: 25%;
+}
+
+#resaltar {
+  -webkit-text-fill-color: blue;
+}
+
+#imagen-dinosaurios {
+  max-width: 22%;
+  max-height: 22%;
+}
+
+/*----------Fin Modificaciones Jefferson--------------------*/
+
+.services-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.news-info {
+  width: 50%;
+  padding: 20px;
+}
+
+.news-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.news-info__title {
+  align-self: center;
+}
+
+/* -------------------- INICIO CSS FOOTER -------------------- */
+.seccion-info__pie {
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  color: #f7f7f7;
+}
+
+.seccion-footer {
+  padding: 3px;
+  background-color: #0a9292;
+  color: #f7f7f7;
+}
+
+.titulo-footer {
+  text-align: center;
+}
+.parrafo-footer {
+  text-align: center;
+}
+
+.redes-sociales {
+  list-style: square;
+  color: #f7f7f7;
+}
+/* -------------------- FIN CSS FOOTER -------------------- */
+
+.services-info__imagen {
+  height: 300px;
+  width: 300px;
+  border-radius: 10%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.team-info {
+  width: 25%;
+  padding: 15px;
+}
+
+.team-info__imagen {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}

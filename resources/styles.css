@@ -74,22 +74,29 @@ body {
 
 .site-nav {
   display: flex;
+  flex-flow: row wrap;
   height: 35px;
-  width: 427%;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-weight: bold;
   background: #d6d309;
-  margin: 0;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   color: rgb(81, 83, 82);
+  padding-inline-start: 150px;
+  padding-inline-end: 150px;
+  size: auto;
 }
 
 .site-nav > a {
+  display: flex;
   color: inherit;
   text-decoration: none;
 }
 
 .site-nav > a:hover {
+  display: flex;
   text-decoration: underline;
   font-weight: bold;
 }
